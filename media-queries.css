@@ -1,0 +1,9 @@
+/* GRIDS */
+
+@media (max-width: 991px){
+    .container> .home-title>p {
+        font-size: 60px;
+        margin: 0px 100px 0px 80px;
+        padding-top: 250px;
+    }
+}
