@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/0384ebf309.js" crossorigin="anonymous"></script>
@@ -21,9 +24,9 @@
 <body>
     <div class="container">
         <!-- Nav Section begins -->
-        <header>
+        <header class=" col-xs-6">
         
-            <nav class="navbar  ">
+            <nav class="navbar">
                 <div class="container-fluid">
                   
                     <a class="navbar-brand" href="#">Benzatine.</a>
@@ -117,8 +120,8 @@
 
             <div class="col-lg-6 col-sm-12 col-xs-12  my-auto mx-auto "> 
                 <div class="row bg-white mx-auto email shadow">
-                    <p class="col-lg-4 col-sm-4 col-xs-4 mx-auto my-auto text-start text-secondary">Enter your email</p>
-                    <p class="col-lg-4 col-sm-4 col-xs-4 mx-auto my-auto text-end">Subscribe now >></p>
+                    <p class="col-lg-4 col-sm-4 col-xs-4 mx-auto my-auto text-start text-secondary first">Enter your email</p>
+                    <p class="col-lg-4 col-sm-4 col-xs-4 mx-auto my-auto text-end second">Subscribe now >></p>
                 </div>
             </div>
         </div>
@@ -126,9 +129,9 @@
 
 
         <!-- Third Section begins -->
-        <div class="row mt-5 third-section ">
-            <div class="col-lg-6 "> 
-                <img src="image/chart.png" alt="chart" width="100%" height="100%">
+        <div class="row mt-5 mb-5 third-section ">
+            <div class="col-lg-6 mb-5"> 
+                <img src="image/chart.png" alt="chart" width="100%" height="100%" >
             </div>
 
             <div class="col-lg-6 my-auto skill pt-sm-5 pt-xs-5"> 
@@ -174,7 +177,7 @@
                 <div class="bg-danger col-lg-3 m-3 align-items-center  rounded-4 justify-content-center d-flex box text-center shadow bg-white flex-column"> <img src="image/megaphone.png" alt="" width="30%" height="30px"> Digital Marketing</div>
             </div>
 
-            <div class="col-lg-5 col-xs-12 text-end"> 
+            <div class="col-lg-5 col-xs-12 text-end mt-5"> 
                 <img src="image/computer.png" alt="chart" width="100%" height="100%">
             </div>
         </div>
@@ -184,11 +187,11 @@
         <!-- Sixth Section begins -->
         <div class="row second-section">
             <div class="col-lg-5 col-sm-12 col-xs-12 text-center my-auto Newsletter "> 
-                <p class="title">Happy client</p>
+                <p class="title client">Happy client</p>
                 <p class="body">Mauris aliquet egestas metus, id pellentesque mauris tincidunt.</p>
             </div>
 
-            <div class="col-lg-6 col-sm-12 col-xs-12  my-auto mx-auto text-center d-flex justify-content-between"> 
+            <div class="col-lg-6 col-sm-12 col-xs-12  my-auto mx-auto text-center d-flex justify-content-between icons"> 
                 <img src="image/airbnb.png" alt="" width="25%" height="37px" class="col-lg-3 ">
                 <img src="image/samsung.png" alt="" width="25%" height="37px" class="col-lg-3">
                 <img src="image/amazon.png" alt="" width="25%" height="37px" class="col-lg-3">
@@ -199,7 +202,7 @@
 
         <!-- Seventh Section begins -->
         <div class="row mt-5 third-section ">
-            <div class="col-lg-4 "> 
+            <div class="col-lg-4 mb-5"> 
                 <img src="image/mansion.png" alt="chart" width="100%" height="100%">
             </div>
 
@@ -275,11 +278,11 @@
                <form >
                     <div class="fw-bold h4 text-center pb-3"> Contact Form</div>
                     <div class="row">
-                        <div class="col-lg-6">
-                            <input type="text" class="form-control py-3" id="autoSizingInput" placeholder="Name">
+                        <div class="col-lg-6 col-xs-12">
+                            <input type="text" class="form-control py-3 mb-3" id="autoSizingInput" placeholder="Name">
                         </div>
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-xs-12">
                             <input type="text" class="form-control py-3" id="autoSizingInput" placeholder="Phone number">
                         </div>
                     </div>
@@ -301,7 +304,7 @@
                 <br>
 
                     <div class="row">
-                        <div class="col-lg-12 col-sm-4">
+                        <div class="col-lg-12 col-sm-12">
                             <textarea name="text" id=""  placeholder="Message" class="p-3 py-3"></textarea>
                         </div>
                     </div>
