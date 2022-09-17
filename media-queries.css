@@ -14,7 +14,13 @@
         background-color: #fef4f7;
     }
 
-    body>.container>header>nav {display: none;}
+    .benz {
+        font-size: 15px !important;
+    }
+
+    .Drib {
+        display: none;
+    }
 
     body>.container>.row>.text>.big {
         font-size: 30px;
