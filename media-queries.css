@@ -7,3 +7,38 @@
         padding-top: 250px;
     }
 }
+
+@media (max-width: 640px){
+    body>.container{
+        padding: 50px 50px 30px 50px;
+        background-color: #fef4f7;
+    }
+
+    body>.container>header>nav {display: none;}
+
+    body>.container>.row>.text>.big {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 32px;
+        padding-right: 0px;
+    }
+
+    body>.container>.second-section>div>.email>p {
+        padding: none !important;
+        text-align: center !important;
+    }
+
+    body>.container>.fifth-section>.work>.box {
+        width: 43%;
+    }
+
+    /* not working 
+    .body>.container>.second-section>.icons>img {
+        height: 30px;
+    }*/
+
+
+    body>.container>.form-section>.form {
+        padding: 20px 20px 30px 20px;
+     }
+}
